@@ -6,14 +6,40 @@ public class _00_SortedArrayChecker {
 	//   and it returns a boolean.
 	//   The method returns true if the integer
 	//   array is in ascending order and false otherwise
-
+	public static boolean intArraySorted(int array[]) {
+		int correct = 0;
+		for(int i = 0; i < array.length; i++) {
+			if(array[i] < array[i++]) {
+				correct++;
+			}
+		}
+		if(correct == array.length) {
+			return true;
+		}
+		else {
+		return false;
+		}
+	}
 	
 	//2. Write a static method called doubleArraySorted. 
 	//   This method takes in an array of doubles
 	//   and it returns a boolean.
 	//   The method returns true if the double
 	//   array is in ascending order and false otherwise
-
+	public static boolean doubleArraySorted(Double array[]) {
+		int correct = 0;
+		for(int i = 0; i < array.length; i++) {
+			if(array[i] < array[i++]) {
+				correct++;
+			}
+		}
+		if(correct == array.length) {
+			return true;
+		}
+		else {
+		return false;
+		}
+	}
 	
 	//3. Write a static method called charArraySorted. 
 	//   This method takes in an array of characters
@@ -21,7 +47,20 @@ public class _00_SortedArrayChecker {
 	//   The method returns true if the character
 	//   array is in alphabetical order and false otherwise
 	//   (You can compare characters just like integers)
-
+	public static boolean charArraySorted(Character array[]) {
+		int correct = 0;
+		for(int i = 0; i < array.length; i++) {
+			if(array[i] < array[i]) {
+				correct++;
+			}
+		}
+		if(correct == array.length) {
+			return true;
+		}
+		else {
+		return false;
+		}
+	}
 	
 	//4. Write a static method called stringArraySorted. 
 	//   This method takes in an array of Strings
@@ -29,5 +68,13 @@ public class _00_SortedArrayChecker {
 	//   The method returns true if the String
 	//   array is in alphabetical order and false otherwise
 	//   (Use the compareTo(String) method)
-
+	public static boolean stringArraySorted(String array[]) {
+		int correct = 0;
+		for(int i = 0; i < array.length;i++) {
+			if(//yhhhhshfuifhdsafhasfeliotyosorugw) {
+				
+			}
+		}
+		return false;
+	}
 }
