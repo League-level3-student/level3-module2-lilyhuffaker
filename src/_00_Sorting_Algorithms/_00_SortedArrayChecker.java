@@ -71,10 +71,10 @@ public class _00_SortedArrayChecker {
 	public static boolean stringArraySorted(String array[]) {
 		int correct = 0;
 		for(int i = 0; i < array.length;i++) {
-			if(//yhhhhshfuifhdsafhasfeliotyosorugw) {
+			//if() {
 				
 			}
-		}
+		//}
 		return false;
 	}
 }
