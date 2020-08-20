@@ -28,6 +28,7 @@ public class _02_SortingAlgorithms {
 		case "Bubble":{
 			new SortingVisualizer(new BubbleSorter());
 			break;
+			
 		}
 		case "Selection":{
 			new SortingVisualizer(new SelectionSorter());
