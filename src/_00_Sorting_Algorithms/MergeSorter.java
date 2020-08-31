@@ -24,7 +24,8 @@ public class MergeSorter extends Sorter {
 		if(low < high) {
 			//3. Create an integer called middle and set it 
 			//   equal to the half way point between low and high
-            int middle = low+=high/2;
+            int midle = low+=high;
+            int middle = midle/2;
             //4. call the mergeSort method with low and middle
             mergeSort(temp, low, middle, display);
             //5. call the mergeSort method with middle + 1 and high
