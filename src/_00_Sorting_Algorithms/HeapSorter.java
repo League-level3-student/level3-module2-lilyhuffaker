@@ -11,6 +11,7 @@ public class HeapSorter extends Sorter {
 	//   Complete the steps in the heapSort method.
 	//   You can use display.updateDisplay() to show the current
 	//   progress on the graph.
+	
 	@Override
 	void sort(int[] array, SortingVisualizer display) {
 		//8. create an integer called n and set it equal 
